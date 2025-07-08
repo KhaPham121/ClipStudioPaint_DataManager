@@ -33,9 +33,13 @@
 Sau khi khởi chạy, chương trình hiển thị menu:
 
 `1`. Backup my CLIPStudioPaint UserData
+
 `2`. Restore my CLIPStudioPaint UserData
+
 `3`. Wipe all my current CLIPStudioPaint UserData
+
 `4`. Get help
+
 `0`. Open log
 
 
@@ -158,10 +162,15 @@ Nếu bạn gặp lỗi hoặc cần hỗ trợ:
 After launching, the program displays the menu:
 
 `1`. Backup my CLIPStudioPaint UserData
+
 `2`. Restore my CLIPStudioPaint UserData
+
 `3`. Wipe all my current CLIPStudioPaint UserData
+
 `4`. Get help
+
 `0`. Open log
+
 
 ### 3. **Backup data**
 
