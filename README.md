@@ -70,7 +70,7 @@ Sau khi khởi chạy, chương trình hiển thị menu:
 
 | Vấn đề | Nguyên nhân | Cách xử lý |
 |-------|-------------|-------------|
-| `Administrator privileges required` | Không chạy bằng quyền Admin | Nhấn chuột phải vào `.bat` và chọn **"Run as Administrator"** |
+| `Administrator privileges required` | Không chạy bằng quyền Admin | Nhấn chuột phải vào `.exe` và chọn **"Run as Administrator"** |
 | `7z.exe` hoặc `7z.dll` not found | Thiếu file nén 7-Zip trong thư mục `module/` | Đảm bảo file `7z.exe` và `7z.dll` đúng phiên bản và đúng vị trí |
 | `Hash mismatch` | Tệp 7-Zip bị thay đổi hoặc lỗi | Tải lại phiên bản chuẩn của `7z.exe` và `7z.dll` |
 | `Invalid backup file: backup.point not found` | File `.bak` không phải do công cụ này tạo | Dùng đúng file sao lưu tạo từ công cụ này |
@@ -199,7 +199,7 @@ After launching, the program displays the menu:
 
 | Problem | Cause | Solution |
 |-------|-------------|-------------|
-| `Administrator privileges required` | Do not run as Administrator | Right-click `.bat` and select **"Run as Administrator"** |
+| `Administrator privileges required` | Do not run as Administrator | Right-click `.exe` and select **"Run as Administrator"** |
 | `7z.exe` or `7z.dll` not found | Missing 7-Zip archive in `module/` folder | Make sure `7z.exe` and `7z.dll` are the correct version and location |
 | `Hash mismatch` | 7-Zip file is modified or corrupted | Reload the correct version of `7z.exe` and `7z.dll` |
 | `Invalid backup file: backup.point not found` | `.bak` file was not created by this tool | Use correct backup file created by this tool |
