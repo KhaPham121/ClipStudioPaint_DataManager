@@ -1,0 +1,52 @@
+MIT License
+
+Copyright (c) 2025 KhaPham121
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the “Software”), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Third-Party Notice:
+
+* This software bundle includes binaries from the 7-Zip project (7z.exe and 7z.dll), 
+which are licensed under the GNU LGPL v2.1.
+
+7-Zip Copyright (C) 1999-2021 Igor Pavlov.
+7-Zip is open source software, you can redistribute it and/or modify it under 
+the terms of the GNU Lesser General Public License as published by the Free Software Foundation; 
+either version 2.1 of the License, or (at your option) any later version.
+
+You can obtain a copy of the LGPL License at:
+https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+
+You can obtain the source code of 7-Zip at:
+https://www.7-zip.org
+
+
+
+
+* This software includes a self-extracting archive created using WinRAR's SFX module (`Zip32SFX.exe`).
+
+WinRAR and its SFX modules are © Alexander Roshal and distributed under a proprietary license.
+They are not open-source, and are not covered under the MIT License.
+
+Use of WinRAR SFX modules complies with the licensing terms provided by RARLAB:
+https://www.win-rar.com/license.html
+
+You are permitted to use the generated self-extracting executable for personal or redistribution purposes in accordance with RARLAB’s terms. Redistribution of the SFX module itself is not permitted.
