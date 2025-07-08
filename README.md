@@ -26,10 +26,7 @@
 ## 🚀 Hướng dẫn sử dụng
 
 ### 1. **Yêu cầu:**
-- Chạy file `ClipStudioPaintDataManager.bat` **với quyền Administrator**
-- Đảm bảo thư mục `module/` chứa:
-  - `7z.exe`
-  - `7z.dll`
+- Chạy file `ClipStudioPaintDataManager.exe` **với quyền Administrator**
 
 ### 2. **Menu chính**
 
@@ -153,11 +150,8 @@ Nếu bạn gặp lỗi hoặc cần hỗ trợ:
 
 ### 1. **Requirements:**
 
-- Run the file `ClipStudioPaintDataManager.bat` **with Administrator rights**
-- Make sure the `module/` folder contains:
+- Run the file `ClipStudioPaintDataManager.exe` **with Administrator rights**
 
-- `7z.exe`
-- `7z.dll`
 
 ### 2. **Main Menu**
 
