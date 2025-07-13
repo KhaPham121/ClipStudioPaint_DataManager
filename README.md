@@ -40,6 +40,8 @@ Sau khi khởi chạy, chương trình hiển thị menu:
 
 `4`. Get help
 
+`5`. Show license
+
 `0`. Open log
 
 
@@ -76,7 +78,8 @@ Sau khi khởi chạy, chương trình hiển thị menu:
 |-------|-------------|-------------|
 | `Administrator privileges required` | Không chạy bằng quyền Admin | Nhấn chuột phải vào `.exe` và chọn **"Run as Administrator"** |
 | `7z.exe` hoặc `7z.dll` not found | Thiếu module 7-Zip trong thư mục `module/` | Thử tải lại và chạy lại phần mềm |
-| `Hash mismatch` | Tệp 7-Zip bị thay đổi hoặc lỗi | Thử tải lại và chạy lại phần mềm |
+| `sqlite3.exe` hoặc `sqlite3.dll` not found | Thiếu module SQLite3 trong thư mục `module/` | Thử tải lại và chạy lại phần mềm |
+| `Hash mismatch` | Tệp 7-Zip hoặc SQLite bị thay đổi hoặc lỗi | Thử tải lại và chạy lại phần mềm |
 | `Invalid backup file: backup.point not found` | File `.bak` không phải do công cụ này tạo | Dùng đúng file sao lưu tạo từ công cụ này |
 | Backup không thành công | Đường dẫn lỗi, thiếu quyền, hoặc tên file không hợp lệ | Đảm bảo đường dẫn không chứa ký tự đặc biệt và có quyền ghi. Đảm bảo ClipStudioPaint chạy ít nhất 1 lần |
 
@@ -201,6 +204,8 @@ After launching, the program displays the menu:
 
 `4`. Get help
 
+`5`. Show license
+
 `0`. Open log
 
 
@@ -242,9 +247,10 @@ After launching, the program displays the menu:
 |-------|-------------|-------------|
 | `Administrator privileges required` | Do not run as Administrator | Right-click `.exe` and select **"Run as Administrator"** |
 | `7z.exe` or `7z.dll` not found | Missing 7-Zip archive in `module/` folder | Try to re-download and restart this app |
-| `Hash mismatch` | 7-Zip file is modified or corrupted | Try to re-download and restart this app |
+| `sqlite3.exe` or `sqlite3.dll` not found | Missing SQLite in `module/` folder | Try to re-download and restart this app |
+| `Hash mismatch` | 7-Zip or SQLite3 file is modified or corrupted | Try to re-download and restart this app |
 | `Invalid backup file: backup.point not found` | `.bak` file was not created by this tool | Use correct backup file created by this tool |
-| Backup failed | Path is broken, permissions are missing, or file name is invalid | Make sure path does not contain special characters and has writable permissions |
+| Backup failed | Path is broken, permissions are missing, or file name is invalid | Make sure path does not contain special characters and has writable permissions. Make sure ClipStudioPaint run at least once time |
 
 ---
 
