@@ -1,0 +1,25 @@
+WinRAR SFX Module Notice (Zip32SFX.exe)
+=======================================
+
+This software was packaged as a self-extracting `.exe` file using WinRAR's SFX module, `Zip32SFX.exe`.
+
+The SFX module is:
+© Alexander Roshal  
+All rights reserved.  
+Website: https://www.win-rar.com  
+License: https://www.win-rar.com/license.html
+
+Important Notes:
+----------------
+- The SFX module (`Zip32SFX.exe`) is NOT included in this repository.
+- This project does NOT modify or distribute `Zip32SFX.exe` in any form.
+- The distributed `.exe` file is the output of WinRAR's "Create SFX Archive" functionality.
+- Redistribution of the SFX module itself may require a separate license from RARLAB (WinRAR).
+
+Permission to use the SFX module to create and distribute self-extracting archives is granted by WinRAR's end-user license agreement, provided that:
+- You do not modify the module.
+- You do not redistribute the module separately from the archive output.
+- You provide appropriate attribution and follow RARLAB’s terms.
+
+For full legal details, visit:
+https://www.win-rar.com/license.html
