@@ -1,6 +1,6 @@
 # ClipStudio Paint Data Manager
 
-**Phiên bản:** 1.0.0  
+**Phiên bản:** 1.0.1  
 **Tác giả:** [KhaPham121](https://github.com/KhaPham121)  
 **Ngôn ngữ:** Windows Batch Script (.bat)
 
@@ -75,10 +75,10 @@ Sau khi khởi chạy, chương trình hiển thị menu:
 | Vấn đề | Nguyên nhân | Cách xử lý |
 |-------|-------------|-------------|
 | `Administrator privileges required` | Không chạy bằng quyền Admin | Nhấn chuột phải vào `.exe` và chọn **"Run as Administrator"** |
-| `7z.exe` hoặc `7z.dll` not found | Thiếu file nén 7-Zip trong thư mục `module/` | Thử tải lại và chạy lại phần mềm |
+| `7z.exe` hoặc `7z.dll` not found | Thiếu module 7-Zip trong thư mục `module/` | Thử tải lại và chạy lại phần mềm |
 | `Hash mismatch` | Tệp 7-Zip bị thay đổi hoặc lỗi | Thử tải lại và chạy lại phần mềm |
 | `Invalid backup file: backup.point not found` | File `.bak` không phải do công cụ này tạo | Dùng đúng file sao lưu tạo từ công cụ này |
-| Backup không thành công | Đường dẫn lỗi, thiếu quyền, hoặc tên file không hợp lệ | Đảm bảo đường dẫn không chứa ký tự đặc biệt và có quyền ghi |
+| Backup không thành công | Đường dẫn lỗi, thiếu quyền, hoặc tên file không hợp lệ | Đảm bảo đường dẫn không chứa ký tự đặc biệt và có quyền ghi. Đảm bảo ClipStudioPaint chạy ít nhất 1 lần |
 
 ---
 
@@ -93,7 +93,7 @@ Sau khi khởi chạy, chương trình hiển thị menu:
 ## 🛡️ Bảo mật & riêng tư
 
 - File backup không được mã hóa. Bạn có thể dùng WinRAR hoặc 7-Zip để mở nội dung.
-- Nếu cần bảo mật, hãy **tự mã hóa** file `.bak` bằng công cụ bên thứ ba như **VeraCrypt**, **7-Zip AES**, v.v.
+- Nếu cần bảo mật, hãy **tự mã hóa** file `.bak` bằng công cụ bên thứ ba như **WinRAR**, **7-Zip**, v.v.
 
 ---
 
@@ -128,6 +128,19 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
   [https://www.win-rar.com/license.html](https://www.win-rar.com/license.html)  
 
   Phần mềm này chỉ phân phối file thực thi (.exe) đã đóng gói, không phân phối module SFX dưới dạng riêng biệt.
+
+- **SQLite**
+SQLite is in the Public Domain.
+
+All of the code and documentation in SQLite has been dedicated to the public domain by the authors. This means that anybody is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.
+
+The author disclaims copyright to this source code. In place of a legal notice, here is a blessing:
+
+   May you do good and not evil.
+   May you find forgiveness for yourself and forgive others.
+   May you share freely, never taking more than you give.
+
+More information at: https://www.sqlite.org/copyright.html
 
 
 ## 💬 Liên hệ
@@ -247,7 +260,7 @@ After launching, the program displays the menu:
 
 - The backup file is not encrypted. You can use WinRAR or 7-Zip to open the contents.
 
-- If security is needed, **self-encrypt** the `.bak` file using a third-party tool like **VeraCrypt**, **7-Zip AES**, etc.
+- If security is needed, **self-encrypt** the `.bak` file using a third-party tool like **WinRAR**, **7-Zip**, etc.
 
 ---
 
@@ -281,6 +294,19 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
   [https://www.win-rar.com/license.html](https://www.win-rar.com/license.html)  
 
   This software only distributes the resulting packed executable and does not distribute the SFX module separately.
+
+- **SQLite**
+SQLite is in the Public Domain.
+
+All of the code and documentation in SQLite has been dedicated to the public domain by the authors. This means that anybody is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.
+
+The author disclaims copyright to this source code. In place of a legal notice, here is a blessing:
+
+   May you do good and not evil.
+   May you find forgiveness for yourself and forgive others.
+   May you share freely, never taking more than you give.
+
+More information at: https://www.sqlite.org/copyright.html
 
 
 ## 💬 Contact
